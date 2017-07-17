@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		888C56A31F1D5E3A006D3875 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C56A21F1D5E3A006D3875 /* main.m */; };
 		888C56A61F1D5E3A006D3875 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C56A51F1D5E3A006D3875 /* AppDelegate.m */; };
-		888C56A91F1D5E3A006D3875 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C56A81F1D5E3A006D3875 /* ViewController.m */; };
 		888C56AC1F1D5E3A006D3875 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888C56AA1F1D5E3A006D3875 /* Main.storyboard */; };
 		888C56AE1F1D5E3A006D3875 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 888C56AD1F1D5E3A006D3875 /* Assets.xcassets */; };
 		888C56B11F1D5E3A006D3875 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888C56AF1F1D5E3A006D3875 /* LaunchScreen.storyboard */; };
 		888C56BC1F1D5E3A006D3875 /* _w4d1_catsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C56BB1F1D5E3A006D3875 /* _w4d1_catsTests.m */; };
+		888C56C91F1D6B29006D3875 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C56C81F1D6B29006D3875 /* FirstViewController.m */; };
+		888C56CC1F1D6B8E006D3875 /* CatCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C56CB1F1D6B8E006D3875 /* CatCollectionViewCell.m */; };
+		888C56D31F1D6F94006D3875 /* Cats.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C56D21F1D6F94006D3875 /* Cats.m */; };
+		888C56D61F1D7BD4006D3875 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C56D51F1D7BD4006D3875 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +34,6 @@
 		888C56A21F1D5E3A006D3875 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		888C56A41F1D5E3A006D3875 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		888C56A51F1D5E3A006D3875 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		888C56A71F1D5E3A006D3875 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		888C56A81F1D5E3A006D3875 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		888C56AB1F1D5E3A006D3875 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		888C56AD1F1D5E3A006D3875 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		888C56B01F1D5E3A006D3875 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -41,6 +42,14 @@
 		888C56BB1F1D5E3A006D3875 /* _w4d1_catsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _w4d1_catsTests.m; sourceTree = "<group>"; };
 		888C56BD1F1D5E3A006D3875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		888C56C61F1D5E96006D3875 /* Key.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Key.h; sourceTree = "<group>"; };
+		888C56C71F1D6B29006D3875 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		888C56C81F1D6B29006D3875 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		888C56CA1F1D6B8E006D3875 /* CatCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CatCollectionViewCell.h; path = ../CatCollectionViewCell.h; sourceTree = "<group>"; };
+		888C56CB1F1D6B8E006D3875 /* CatCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CatCollectionViewCell.m; path = ../CatCollectionViewCell.m; sourceTree = "<group>"; };
+		888C56D11F1D6F93006D3875 /* Cats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cats.h; sourceTree = "<group>"; };
+		888C56D21F1D6F94006D3875 /* Cats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cats.m; sourceTree = "<group>"; };
+		888C56D41F1D7BD4006D3875 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		888C56D51F1D7BD4006D3875 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,15 +91,10 @@
 		888C56A01F1D5E3A006D3875 /* 2w4d1_cats */ = {
 			isa = PBXGroup;
 			children = (
-				888C56A41F1D5E3A006D3875 /* AppDelegate.h */,
-				888C56A51F1D5E3A006D3875 /* AppDelegate.m */,
-				888C56A71F1D5E3A006D3875 /* ViewController.h */,
-				888C56A81F1D5E3A006D3875 /* ViewController.m */,
-				888C56AA1F1D5E3A006D3875 /* Main.storyboard */,
-				888C56C61F1D5E96006D3875 /* Key.h */,
-				888C56AD1F1D5E3A006D3875 /* Assets.xcassets */,
-				888C56AF1F1D5E3A006D3875 /* LaunchScreen.storyboard */,
-				888C56B21F1D5E3A006D3875 /* Info.plist */,
+				888C56D01F1D6BF0006D3875 /* UI */,
+				888C56CF1F1D6BE8006D3875 /* Controller */,
+				888C56CE1F1D6BAD006D3875 /* View */,
+				888C56CD1F1D6B9D006D3875 /* Model */,
 				888C56A11F1D5E3A006D3875 /* Supporting Files */,
 			);
 			path = 2w4d1_cats;
@@ -99,6 +103,8 @@
 		888C56A11F1D5E3A006D3875 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				888C56AD1F1D5E3A006D3875 /* Assets.xcassets */,
+				888C56B21F1D5E3A006D3875 /* Info.plist */,
 				888C56A21F1D5E3A006D3875 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -111,6 +117,47 @@
 				888C56BD1F1D5E3A006D3875 /* Info.plist */,
 			);
 			path = 2w4d1_catsTests;
+			sourceTree = "<group>";
+		};
+		888C56CD1F1D6B9D006D3875 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				888C56C61F1D5E96006D3875 /* Key.h */,
+				888C56D11F1D6F93006D3875 /* Cats.h */,
+				888C56D21F1D6F94006D3875 /* Cats.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		888C56CE1F1D6BAD006D3875 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				888C56C71F1D6B29006D3875 /* FirstViewController.h */,
+				888C56C81F1D6B29006D3875 /* FirstViewController.m */,
+				888C56CA1F1D6B8E006D3875 /* CatCollectionViewCell.h */,
+				888C56CB1F1D6B8E006D3875 /* CatCollectionViewCell.m */,
+				888C56D41F1D7BD4006D3875 /* DetailViewController.h */,
+				888C56D51F1D7BD4006D3875 /* DetailViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		888C56CF1F1D6BE8006D3875 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				888C56A41F1D5E3A006D3875 /* AppDelegate.h */,
+				888C56A51F1D5E3A006D3875 /* AppDelegate.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		888C56D01F1D6BF0006D3875 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				888C56AA1F1D5E3A006D3875 /* Main.storyboard */,
+				888C56AF1F1D5E3A006D3875 /* LaunchScreen.storyboard */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,9 +262,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				888C56A91F1D5E3A006D3875 /* ViewController.m in Sources */,
+				888C56D31F1D6F94006D3875 /* Cats.m in Sources */,
 				888C56A61F1D5E3A006D3875 /* AppDelegate.m in Sources */,
+				888C56CC1F1D6B8E006D3875 /* CatCollectionViewCell.m in Sources */,
 				888C56A31F1D5E3A006D3875 /* main.m in Sources */,
+				888C56C91F1D6B29006D3875 /* FirstViewController.m in Sources */,
+				888C56D61F1D7BD4006D3875 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
