@@ -40,6 +40,7 @@
 		888C56B71F1D5E3A006D3875 /* 2w4d1_catsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2w4d1_catsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		888C56BB1F1D5E3A006D3875 /* _w4d1_catsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _w4d1_catsTests.m; sourceTree = "<group>"; };
 		888C56BD1F1D5E3A006D3875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		888C56C61F1D5E96006D3875 /* Key.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Key.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +87,7 @@
 				888C56A71F1D5E3A006D3875 /* ViewController.h */,
 				888C56A81F1D5E3A006D3875 /* ViewController.m */,
 				888C56AA1F1D5E3A006D3875 /* Main.storyboard */,
+				888C56C61F1D5E96006D3875 /* Key.h */,
 				888C56AD1F1D5E3A006D3875 /* Assets.xcassets */,
 				888C56AF1F1D5E3A006D3875 /* LaunchScreen.storyboard */,
 				888C56B21F1D5E3A006D3875 /* Info.plist */,
