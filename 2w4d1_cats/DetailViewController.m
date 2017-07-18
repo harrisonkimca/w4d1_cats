@@ -22,7 +22,12 @@
     [super viewDidLoad];
     
     self.label.text = self.cat.imageTitle;
-    self.imageView.image = self.cat.photo;
+    
+    // ***** convert url to image *****
+    NSData *data = [NSData dataWithContentsOfURL:self.cat.url];
+    UIImage *image = [UIImage imageWithData:data];
+    //self.imageView.image = self.cat.photo;
+    self.imageView.image = image;
 }
 
 - (void)didReceiveMemoryWarning {

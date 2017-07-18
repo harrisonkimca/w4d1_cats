@@ -10,11 +10,14 @@
 #import "Cats.h"
 #import "CatCollectionViewCell.h"
 #import "DetailViewController.h"
+#import "Key.h"
+#import "FlickrAPI.h"
 
 @interface FirstViewController ()<UICollectionViewDataSource>
 
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 @property (strong, nonatomic) NSArray <Cats*>*cats;
+
 
 @end
 
@@ -25,22 +28,14 @@
     
     self.collectionView.dataSource = self;
     
-    [self createData];
+    [FlickrAPI getData:^(NSMutableArray *resultsArray) {
+        NSLog(@"Flickr data: %@", resultsArray);
+        self.cats = [NSArray arrayWithArray:resultsArray];
+        [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+            [self.collectionView reloadData];
+        }];
+    }];
 }
-
-- (void)createData
-{
-    Cats *cat1 = [[Cats alloc]initWithTitle:@"Chicago" andPhoto:[UIImage imageNamed:@"chicago"]];
-    
-    self.cats = @[cat1];
-}
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 #pragma mark - Data source
 
@@ -54,7 +49,11 @@
     CatCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"Cell" forIndexPath:indexPath];
     Cats *cat = self.cats [indexPath.row];
     cell.label.text = cat.imageTitle;
-    cell.imageView.image = cat.photo;
+    
+    // ***** convert url into image *****
+    NSData *data = [NSData dataWithContentsOfURL:cat.url];
+    UIImage *image = [UIImage imageWithData:data];
+    cell.imageView.image = image;
     return cell;
 }
 

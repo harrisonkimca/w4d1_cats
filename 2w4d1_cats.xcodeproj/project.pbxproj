@@ -17,6 +17,7 @@
 		888C56CC1F1D6B8E006D3875 /* CatCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C56CB1F1D6B8E006D3875 /* CatCollectionViewCell.m */; };
 		888C56D31F1D6F94006D3875 /* Cats.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C56D21F1D6F94006D3875 /* Cats.m */; };
 		888C56D61F1D7BD4006D3875 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C56D51F1D7BD4006D3875 /* DetailViewController.m */; };
+		888C56D91F1D923A006D3875 /* FlickrAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C56D81F1D923A006D3875 /* FlickrAPI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		888C56D21F1D6F94006D3875 /* Cats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cats.m; sourceTree = "<group>"; };
 		888C56D41F1D7BD4006D3875 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		888C56D51F1D7BD4006D3875 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		888C56D71F1D923A006D3875 /* FlickrAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPI.h; sourceTree = "<group>"; };
+		888C56D81F1D923A006D3875 /* FlickrAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrAPI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 		888C56CD1F1D6B9D006D3875 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				888C56D71F1D923A006D3875 /* FlickrAPI.h */,
+				888C56D81F1D923A006D3875 /* FlickrAPI.m */,
 				888C56C61F1D5E96006D3875 /* Key.h */,
 				888C56D11F1D6F93006D3875 /* Cats.h */,
 				888C56D21F1D6F94006D3875 /* Cats.m */,
@@ -132,12 +137,8 @@
 		888C56CE1F1D6BAD006D3875 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				888C56C71F1D6B29006D3875 /* FirstViewController.h */,
-				888C56C81F1D6B29006D3875 /* FirstViewController.m */,
 				888C56CA1F1D6B8E006D3875 /* CatCollectionViewCell.h */,
 				888C56CB1F1D6B8E006D3875 /* CatCollectionViewCell.m */,
-				888C56D41F1D7BD4006D3875 /* DetailViewController.h */,
-				888C56D51F1D7BD4006D3875 /* DetailViewController.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -147,6 +148,10 @@
 			children = (
 				888C56A41F1D5E3A006D3875 /* AppDelegate.h */,
 				888C56A51F1D5E3A006D3875 /* AppDelegate.m */,
+				888C56C71F1D6B29006D3875 /* FirstViewController.h */,
+				888C56C81F1D6B29006D3875 /* FirstViewController.m */,
+				888C56D41F1D7BD4006D3875 /* DetailViewController.h */,
+				888C56D51F1D7BD4006D3875 /* DetailViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 				888C56CC1F1D6B8E006D3875 /* CatCollectionViewCell.m in Sources */,
 				888C56A31F1D5E3A006D3875 /* main.m in Sources */,
 				888C56C91F1D6B29006D3875 /* FirstViewController.m in Sources */,
+				888C56D91F1D923A006D3875 /* FlickrAPI.m in Sources */,
 				888C56D61F1D7BD4006D3875 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

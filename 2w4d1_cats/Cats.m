@@ -10,12 +10,13 @@
 
 @implementation Cats
 
-- (instancetype)initWithTitle:(NSString *)title andPhoto:(UIImage *)photo
+- (instancetype)initWithTitle:(NSString*)title andURL:(NSURL*)url
 {
     self = [super init];
     if (self) {
         _imageTitle = title;
-        _photo = photo;
+        _url = url;
+        //_photo = photo;
     }
     return self;
 }

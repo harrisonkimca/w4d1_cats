@@ -14,6 +14,6 @@
 @property (strong, nonatomic) UIImage *photo;
 @property (strong, nonatomic) NSURL *url;
 
-- (instancetype)initWithTitle:(NSString*)title andPhoto:(UIImage*)photo;
+- (instancetype)initWithTitle:(NSString*)title andURL:(NSURL*)url;
 
 @end
